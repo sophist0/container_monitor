@@ -34,7 +34,7 @@ The configuration file is config.txt, replace all the capitalized strings follow
 
 - `python3 -m pytest`
 
-# Notes
+## Notes
 
 - This repo was ported from a private repo for [www.swampyankeetech.com](www.swampyankeetech.com), as such it has not been fully tested as the incentives to update and maintain this repo a nil.
 
