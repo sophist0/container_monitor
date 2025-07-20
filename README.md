@@ -36,6 +36,6 @@ The configuration file is config.txt, replace all the capitalized strings follow
 
 ## Notes
 
-- This repo was ported from a private repo for [www.swampyankeetech.com](www.swampyankeetech.com), as such it has not been fully tested as the incentives to update and maintain this repo a nil.
+- This repo was ported from a private repo for [https://www.swampyankeetech.com](www.swampyankeetech.com), as such it has not been fully tested as the incentives to update and maintain this repo a nil.
 
 - Not sure the docker network is necessary, it was ported from the private repo.
