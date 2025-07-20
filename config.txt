@@ -1,0 +1,7 @@
+from_email:ALERT_GMAIL_ACCOUNT
+from_email_pwd:ALERT_GMAIL_PASSWORD
+email_subject:ALERT_SUBJECT
+recipient:ALERT_RECIPIENT_EMAIL
+smtp_server:smtp.gmail.com
+wait_time:300
+containers:NAME_OF_CONTAINER_1,NAME_OF_CONTAINER_2

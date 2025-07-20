@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+  monitor:
+    build:
+      context: .
+    image: container_monitor
+    stop_grace_period: 90s
+    privileged: true
+    restart: unless-stopped
+    environment:
+      - DOCKER_CMD=/usr/bin/supervisord
+    networks:
+      - container_network
+    volumes:
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+
+networks:
+  container_network:
+    external: true
